@@ -5,8 +5,5 @@ ru-core-news-lg @ https://github.com/explosion/spacy-models/releases/download/ru
 spacy==3.7.2
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
-torch==2.3.0+cu121
-torchaudio==2.3.0+cu121
-torchtext==0.18.0
-torchvision==0.18.0+cu121
+torch
 transformers==4.40.0
