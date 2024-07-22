@@ -67,4 +67,4 @@ def predictdict(text: dict):
     return text_corr
 
 startup_event()
-print(predicttext('бетон')
+print(predicttext('бетон'))
