@@ -283,7 +283,7 @@ class Classification(nn.Module):
 def load_model(device='cpu'):
 
     model_classification = BERT_for_Classification(device='cpu')
-    model_classification.load_state_dict(torch.load(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Cl_on_myBert_allres_768_50_train_20240621_080807')))
+    model_classification.load_state_dict(torch.load(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Cl_on_myBert_allres_768_50_train_20240621_080807.pt')))
     model = copy.deepcopy(model_classification)
     model.eval()
     model.to(device)
