@@ -7,3 +7,8 @@ spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 torch
 transformers==4.40.0
+<<<<<<< Updated upstream
+=======
+streamlit
+pandas
+>>>>>>> Stashed changes

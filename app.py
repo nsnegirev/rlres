@@ -5,6 +5,8 @@ import numpy as np
 from ml.model import load_model
 from data.data_preprocessing import preprocessing
 
+import streamlit as st
+
 model = None
 
 def eval(text_dataloader):
@@ -68,3 +70,5 @@ def predictdict(text: dict):
 
 startup_event()
 print(predicttext('бетон'))
+text = st.sidebar.text_input("resourse_name")
+my_data_element = st.table(predicttext(text)['eval'])
