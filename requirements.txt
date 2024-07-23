@@ -7,4 +7,4 @@ torch
 transformers==4.40.0
 streamlit
 pandas
-
+ru-core-news-lg @ https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.7.0/ru_core_news_lg-3.7.0-py3-none-any.whl#sha256=fffc0e466b2ec712fd580e351c9107af667118284c9456c2c856e24ce4d58f7b
