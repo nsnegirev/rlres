@@ -1,2 +1,0 @@
-*.pt filter=lfs diff=lfs merge=lfs -text
-C:/Users/Снегирёв[[:space:]]Николай/Documents/GitHub/rlres/ml/Cl_on_myBert.pt filter=lfs diff=lfs merge=lfs -text
